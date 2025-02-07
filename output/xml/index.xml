@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.13.2" xml:lang="en-US">
+  <compound refid="class_server_framework_1_1_abstract_t_c_p_server" kind="class"><name>ServerFramework::AbstractTCPServer</name>
+    <member refid="class_server_framework_1_1_abstract_t_c_p_server_1a78dc8eaa9905715367e9beb76bf4b5f7" kind="variable"><name>PORT</name></member>
+    <member refid="class_server_framework_1_1_abstract_t_c_p_server_1a9992feb7bb7e230fd2c19a7962c81800" kind="function"><name>AbstractTCPServer</name></member>
+    <member refid="class_server_framework_1_1_abstract_t_c_p_server_1a07aaf1227e4d645f15e0a964f54ef291" kind="function"><name>Start</name></member>
+    <member refid="class_server_framework_1_1_abstract_t_c_p_server_1ae50c63829bd39c894775b16052149391" kind="function"><name>HandleClient</name></member>
+    <member refid="class_server_framework_1_1_abstract_t_c_p_server_1a01d33bf0fb517bdb26ac38e74d63192a" kind="function"><name>TcpServerWork</name></member>
+  </compound>
+  <compound refid="namespaceglobal_1_1_system" kind="namespace"><name>global::System</name>
+  </compound>
+  <compound refid="namespaceglobal_1_1_system_1_1_collections_1_1_generic" kind="namespace"><name>global::System::Collections::Generic</name>
+  </compound>
+  <compound refid="namespaceglobal_1_1_system_1_1_i_o" kind="namespace"><name>global::System::IO</name>
+  </compound>
+  <compound refid="namespaceglobal_1_1_system_1_1_linq" kind="namespace"><name>global::System::Linq</name>
+  </compound>
+  <compound refid="namespaceglobal_1_1_system_1_1_net_1_1_http" kind="namespace"><name>global::System::Net::Http</name>
+  </compound>
+  <compound refid="namespaceglobal_1_1_system_1_1_threading" kind="namespace"><name>global::System::Threading</name>
+  </compound>
+  <compound refid="namespaceglobal_1_1_system_1_1_threading_1_1_tasks" kind="namespace"><name>global::System::Threading::Tasks</name>
+  </compound>
+  <compound refid="namespace_server_framework" kind="namespace"><name>ServerFramework</name>
+  </compound>
+  <compound refid="namespace_system" kind="namespace"><name>System</name>
+  </compound>
+  <compound refid="namespace_system_1_1_collections_1_1_generic" kind="namespace"><name>System::Collections::Generic</name>
+  </compound>
+  <compound refid="namespace_system_1_1_linq" kind="namespace"><name>System::Linq</name>
+  </compound>
+  <compound refid="namespace_system_1_1_net" kind="namespace"><name>System::Net</name>
+  </compound>
+  <compound refid="namespace_system_1_1_net_1_1_sockets" kind="namespace"><name>System::Net::Sockets</name>
+  </compound>
+  <compound refid="namespace_system_1_1_reflection" kind="namespace"><name>System::Reflection</name>
+  </compound>
+  <compound refid="namespace_system_1_1_text" kind="namespace"><name>System::Text</name>
+  </compound>
+  <compound refid="namespace_system_1_1_threading_1_1_tasks" kind="namespace"><name>System::Threading::Tasks</name>
+  </compound>
+  <compound refid="_abstract_t_c_p_server_8cs" kind="file"><name>AbstractTCPServer.cs</name>
+  </compound>
+  <compound refid="_8_n_e_t_core_app_00_version_0av8_80_8_assembly_attributes_8cs" kind="file"><name>.NETCoreApp,Version=v8.0.AssemblyAttributes.cs</name>
+  </compound>
+  <compound refid="_server_framework_8_assembly_info_8cs" kind="file"><name>ServerFramework.AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="_server_framework_8_global_usings_8g_8cs" kind="file"><name>ServerFramework.GlobalUsings.g.cs</name>
+  </compound>
+  <compound refid="dir_d0e09c1ee4042c2fcca863784dd49d19" kind="dir"><name>C:/Users/gympc/Desktop/4 Semester/Advanced software const/Opgave 1/ServerFramework/ServerFramework/ServerFramework/obj/Debug</name>
+  </compound>
+  <compound refid="dir_55d7c2f06bfeac10cee6f80e6882bf1a" kind="dir"><name>C:/Users/gympc/Desktop/4 Semester/Advanced software const/Opgave 1/ServerFramework/ServerFramework/ServerFramework/obj/Debug/net8.0</name>
+  </compound>
+  <compound refid="dir_766a8d0ad8ea9b5fcea97bd4b8c4ea42" kind="dir"><name>C:/Users/gympc/Desktop/4 Semester/Advanced software const/Opgave 1/ServerFramework/ServerFramework/ServerFramework/obj</name>
+  </compound>
+  <compound refid="dir_24bb213480dfdcc8308451b92e212919" kind="dir"><name>C:/Users/gympc/Desktop/4 Semester/Advanced software const/Opgave 1</name>
+  </compound>
+  <compound refid="dir_d9f6582e3722cd2995417cb174da4e93" kind="dir"><name>C:/Users/gympc/Desktop/4 Semester/Advanced software const/Opgave 1/ServerFramework</name>
+  </compound>
+  <compound refid="dir_97681b2cca91929cc948af45f84b3906" kind="dir"><name>C:/Users/gympc/Desktop/4 Semester/Advanced software const/Opgave 1/ServerFramework/ServerFramework</name>
+  </compound>
+  <compound refid="dir_3ef8e791205f3953fa507f53680fbc99" kind="dir"><name>C:/Users/gympc/Desktop/4 Semester/Advanced software const/Opgave 1/ServerFramework/ServerFramework/ServerFramework</name>
+  </compound>
+</doxygenindex>

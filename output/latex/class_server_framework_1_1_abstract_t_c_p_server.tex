@@ -1,0 +1,95 @@
+\doxysection{Abstract\+TCPServer Class Reference}
+\hypertarget{class_server_framework_1_1_abstract_t_c_p_server}{}\label{class_server_framework_1_1_abstract_t_c_p_server}\index{AbstractTCPServer@{AbstractTCPServer}}
+
+
+\doxylink{class_server_framework_1_1_abstract_t_c_p_server}{Abstract\+TCPServer} is an abstract class that provides a framework for creating TCP servers. It handles client connections and delegates the specific work to be done with each client to the derived classes through the abstract method Tcp\+Server\+Work.  
+
+
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_server_framework_1_1_abstract_t_c_p_server_a9992feb7bb7e230fd2c19a7962c81800}{Abstract\+TCPServer}} (string name, int port)
+\begin{DoxyCompactList}\small\item\em Initializes a new instance of the \doxylink{class_server_framework_1_1_abstract_t_c_p_server}{Abstract\+TCPServer} class with the specified name and port. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_server_framework_1_1_abstract_t_c_p_server_a07aaf1227e4d645f15e0a964f54ef291}{Start}} ()
+\begin{DoxyCompactList}\small\item\em Starts the server and begins listening for incoming client connections. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Data Fields}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{class_server_framework_1_1_abstract_t_c_p_server_a78dc8eaa9905715367e9beb76bf4b5f7}{PORT}} = 7
+\begin{DoxyCompactList}\small\item\em The port number on which the server listens for incoming connections. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_server_framework_1_1_abstract_t_c_p_server_a01d33bf0fb517bdb26ac38e74d63192a}{Tcp\+Server\+Work}} (Stream\+Reader reader, Stream\+Writer writer)
+\begin{DoxyCompactList}\small\item\em An abstract method that must be overridden in derived classes to define the specific work to be done with each client connection. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\doxylink{class_server_framework_1_1_abstract_t_c_p_server}{Abstract\+TCPServer} is an abstract class that provides a framework for creating TCP servers. It handles client connections and delegates the specific work to be done with each client to the derived classes through the abstract method Tcp\+Server\+Work. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_server_framework_1_1_abstract_t_c_p_server_a9992feb7bb7e230fd2c19a7962c81800}\index{AbstractTCPServer@{AbstractTCPServer}!AbstractTCPServer@{AbstractTCPServer}}
+\index{AbstractTCPServer@{AbstractTCPServer}!AbstractTCPServer@{AbstractTCPServer}}
+\doxysubsubsection{\texorpdfstring{AbstractTCPServer()}{AbstractTCPServer()}}
+{\footnotesize\ttfamily \label{class_server_framework_1_1_abstract_t_c_p_server_a9992feb7bb7e230fd2c19a7962c81800} 
+\mbox{\hyperlink{class_server_framework_1_1_abstract_t_c_p_server}{Abstract\+TCPServer}} (\begin{DoxyParamCaption}\item[{string}]{name}{, }\item[{int}]{port}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Initializes a new instance of the \doxylink{class_server_framework_1_1_abstract_t_c_p_server}{Abstract\+TCPServer} class with the specified name and port. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em name} & The name of the server.\\
+\hline
+{\em port} & The port number on which the server listens for incoming connections.\\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_server_framework_1_1_abstract_t_c_p_server_a07aaf1227e4d645f15e0a964f54ef291}\index{AbstractTCPServer@{AbstractTCPServer}!Start@{Start}}
+\index{Start@{Start}!AbstractTCPServer@{AbstractTCPServer}}
+\doxysubsubsection{\texorpdfstring{Start()}{Start()}}
+{\footnotesize\ttfamily \label{class_server_framework_1_1_abstract_t_c_p_server_a07aaf1227e4d645f15e0a964f54ef291} 
+void Start (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Starts the server and begins listening for incoming client connections. 
+
+\Hypertarget{class_server_framework_1_1_abstract_t_c_p_server_a01d33bf0fb517bdb26ac38e74d63192a}\index{AbstractTCPServer@{AbstractTCPServer}!TcpServerWork@{TcpServerWork}}
+\index{TcpServerWork@{TcpServerWork}!AbstractTCPServer@{AbstractTCPServer}}
+\doxysubsubsection{\texorpdfstring{TcpServerWork()}{TcpServerWork()}}
+{\footnotesize\ttfamily \label{class_server_framework_1_1_abstract_t_c_p_server_a01d33bf0fb517bdb26ac38e74d63192a} 
+void Tcp\+Server\+Work (\begin{DoxyParamCaption}\item[{Stream\+Reader}]{reader}{, }\item[{Stream\+Writer}]{writer}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [abstract]}, {\ttfamily [protected]}}
+
+
+
+An abstract method that must be overridden in derived classes to define the specific work to be done with each client connection. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em reader} & The Stream\+Reader for reading data from the client.\\
+\hline
+{\em writer} & The Stream\+Writer for writing data to the client.\\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Field Documentation}
+\Hypertarget{class_server_framework_1_1_abstract_t_c_p_server_a78dc8eaa9905715367e9beb76bf4b5f7}\index{AbstractTCPServer@{AbstractTCPServer}!PORT@{PORT}}
+\index{PORT@{PORT}!AbstractTCPServer@{AbstractTCPServer}}
+\doxysubsubsection{\texorpdfstring{PORT}{PORT}}
+{\footnotesize\ttfamily \label{class_server_framework_1_1_abstract_t_c_p_server_a78dc8eaa9905715367e9beb76bf4b5f7} 
+int PORT = 7}
+
+
+
+The port number on which the server listens for incoming connections. 
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/gympc/\+Desktop/4 Semester/\+Advanced software const/\+Opgave 1/\+Server\+Framework/\+Server\+Framework/\+Server\+Framework/\mbox{\hyperlink{_abstract_t_c_p_server_8cs}{Abstract\+TCPServer.\+cs}}\end{DoxyCompactItemize}
